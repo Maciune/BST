@@ -45,7 +45,7 @@ do
     stringtie ${DEDUP}.bai -G ${gtf} -l ${BASENAME} -o outputs/${ID}/${ID} -p ${threads}
 done
 multiqc --filename multiqc_report2.html -o outputs/ outputs/*_val_*
-
+rm tmp.sam
 
 #P.S. Per vėlai pradėjau darbą ir susiduręs su klaidomis nespėjau pabaigti
 #Stringtie nenori leistis ir as nesuprantu kodėl

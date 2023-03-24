@@ -1,3 +1,0 @@
-# BST
-BST Homeworks
-Hello :)
